@@ -10,6 +10,12 @@ de donde pueden ver una explicacion mas a fondo.
 ## Data-set
 Puedes descargar los datos llamados *facial expression recognition*, es un set de datos de [**Kaggle**](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) Se necesita hacer una cuenta y aceptar el reto para descargar los datos, estos datos consisten de imagenes de caras en escala de grises de 48x48 pixeles.
 
+## Instalacion
+Se necesitan instalar unas cosillas:
+- Keras
+- opencv
+- Tensorflow
+
 ## Implementacion
 Para correr un version de prueba ejecuta:
 ```
