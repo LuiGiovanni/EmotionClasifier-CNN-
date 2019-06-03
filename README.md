@@ -7,6 +7,10 @@ Un sistema de reconocimiento de emociones se comprime en dos procesos:
 En este proyecto ponemos en practica ambos procesos basandose en el proyecto *Demonstration of Facial Emotion Recognition on Real Time Video Using CNN : Python & Keras*
 de donde pueden ver una explicacion mas a fondo.
 
+## Data-set
+Puedes descargar los datos llamados *facial expression recognition*, es un set de datos de [**Kaggle**](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) Se necesita hacer una cuenta y aceptar el reto para descargar los datos, estos datos consisten de imagenes de caras en escala de grises de 48x48 pixeles.
+
+## Implementacion
 Para correr un version de prueba ejecuta:
 ```
 python video_emotion_color_demo.py
