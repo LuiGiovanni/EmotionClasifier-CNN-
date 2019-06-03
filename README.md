@@ -1,6 +1,6 @@
 # EmotionClassifier -CNN-
 
-##Introduccion
+## Introduccion
 Un sistema de reconocimiento de emociones se comprime en dos procesos:
     - La deteccion de la cara
     - La deteccion de emociones en dicha cara
@@ -12,7 +12,7 @@ Para correr un version de prueba ejecuta:
 python video_emotion_color_demo.py
 ```
 
-##Resultados
+## Resultados
 Muchas veces tus caras deben ser un poco exageradas para conseguir resultados, pero en general describe bien las emociones mostradas.
 
 ![alt tag](images/neutral.png)
