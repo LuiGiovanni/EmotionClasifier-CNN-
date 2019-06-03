@@ -23,7 +23,7 @@ python video_emotion_color_demo.py
 ```
 
 ## Resultados
-Muchas veces tus caras deben ser un poco exageradas para conseguir resultados, pero en general describe bien las emociones mostradas.
+Muchas veces tus caras deben ser un poco exageradas para conseguir resultados, pero en general describe bien las emociones mostradas. Nota rapida: a veces los lentes afectan por eso en las imagenes aparezco sin lentes.
 
 ![alt tag](images/neutral.png)
 ![alt tag](images/happy.png)
