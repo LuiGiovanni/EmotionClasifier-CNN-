@@ -1,4 +1,4 @@
-# EmotionClassifier-CNN-
+# EmotionClassifier -CNN-
 
 Para correr un version de prueba ejecuta:
 ```
