@@ -1,0 +1,19 @@
+#!/bin/sh
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --job-name=tensorflow-gpu
+#SBATCH --time=1:00:00
+#SBATCH --partition=tesla
+#SBATCH --gres=gpu:1
+
+#Directorio scratch en disco local
+
+module purge
+module load singularity
+
+SCRATCH_DIR=/scratch/$USER/$SLURM_JOBID
+
+SINGULARITY="$(which singularity) exec --nv -B $(pwd):/host_pwd /usr/local/tensorflow_19.04-py3.sif"
+
+$SINGULARITY python train_emotion_classifier.py
